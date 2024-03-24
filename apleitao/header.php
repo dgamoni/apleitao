@@ -108,70 +108,21 @@
 			<!-- <div class="header-slide__image">
 				<img src="<?php bloginfo('template_directory'); ?>/assets/images/slideshow-home/slide1.jpg" alt="">
 			</div> -->
-			<div class="header-slide__logo">
-				<img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-header.png" alt="">
+			<!-- <div class="header-slide__logo"> -->
+				<!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-header.png" alt=""> -->
+			<!-- </div> -->
+			<!-- <div class="header-slide__arrows"></div> -->
+			<!-- <div class="header-slide__dots"></div> -->
+			
+			<div class="slideshow-home-new" style="">
+				<?php while ( have_posts() ) : the_post(); ?>
+					<?php the_content(); ?>
+				<?php endwhile; ?>
+
+				<?php //add_revslider('home-pt'); ?>
+
 			</div>
-			<div class="header-slide__arrows"></div>
-			<div class="header-slide__dots"></div>
-			<div class="slideshow-home" style="background: url(<?php the_field('main_image'); ?>) no-repeat center center; background-size: cover;">
-				<?php
 
-						// check if the repeater field has rows of data
-						if( have_rows('slideshow') ):
-
-						 	// loop through the rows of data
-						    while ( have_rows('slideshow') ) : the_row(); ?>
-
-								<div>
-									<!-- <img src="<?php bloginfo('template_directory'); ?>/assets/images/slideshow-home/slide1.jpg" alt=""> -->
-									<div class="slideshow-home__text">
-										<?php the_sub_field('text'); ?>
-									</div>
-								</div>
-
-
-						  <?php  endwhile;
-
-						endif;
-
-						?>
-				<!-- <div>
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/slideshow-home/slide1.jpg" alt="">
-					<div class="slideshow-home__text">
-						50 anos de experiência e presentes em mais de 20 países são o resultado das melhores pedras e máxima competência.
-					</div>
-				</div>
-				<div>
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/slideshow-home/slide1.jpg" alt="">
-					<div class="slideshow-home__text">
-						Capacidade produtiva e qualidade inegável nos granitos.
-					</div>
-				</div>
-				<div>
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/slideshow-home/slide1.jpg" alt="">
-					<div class="slideshow-home__text">
-						Empresa de referência no mármore Estremoz.
-					</div>
-				</div>
-				<div>
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/slideshow-home/slide1.jpg" alt="">
-					<div class="slideshow-home__text">
-						Lioz como génese da empresa.
-					</div>
-				</div>
-				<div>
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/slideshow-home/slide1.jpg" alt="">
-					<div class="slideshow-home__text">
-						Distribuidores exclusivos Silestone.
-					</div>
-				</div>
-				<div>
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/slideshow-home/slide1.jpg" alt="">
-					<div class="slideshow-home__text">
-						Amplia oferta de mármores importados.
-					</div>
-				</div> -->
-			</div>
 		</div>
 		 <?php else : ?>
 			 <div class="header-slide">

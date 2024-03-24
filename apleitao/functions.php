@@ -221,3 +221,7 @@ function languages_list_header(){
         echo '</ul></div>';
     }
 }
+
+// load core functions
+require_once get_stylesheet_directory() . '/core/load.php';
+
