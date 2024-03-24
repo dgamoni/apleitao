@@ -107,6 +107,14 @@ get_header(); ?>
 
 	      </section>
 
+				<section id="xglosstronika" class="content-main content-dekton">
+					<?php $post_id = 2203; ?>
+					<?php $post_descr = 'xglosstronika'; ?>
+
+						<?php include( locate_template( 'template-parts/content-materials-others.php', false, false ) );  ?>
+
+	      </section>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

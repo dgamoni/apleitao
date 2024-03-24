@@ -58,22 +58,6 @@ get_header(); ?>
 
 	      </section>
 
-				<section id="ecoline" class="content-main content-silestone">
-					<?php $post_id = 269; ?>
-					<?php $post_descr = 'ecoline'; ?>
-
-						<?php include( locate_template( 'template-parts/content-materials-others.php', false, false ) );  ?>
-
-	      </section>
-
-				<section id="custom" class="content-main content-silestone">
-					<?php $post_id = 272; ?>
-					<?php $post_descr = 'custom'; ?>
-
-						<?php include( locate_template( 'template-parts/content-materials-others.php', false, false ) );  ?>
-
-	      </section>
-
 				<section id="nebulaalpha" class="content-main content-silestone">
 					<?php $post_id = 275; ?>
 					<?php $post_descr = 'nebulaalpha'; ?>
@@ -98,14 +82,6 @@ get_header(); ?>
 
 	      </section>
 
-				<section id="stonium" class="content-main content-silestone">
-					<?php $post_id = 284; ?>
-					<?php $post_descr = 'stonium'; ?>
-
-						<?php include( locate_template( 'template-parts/content-materials-others.php', false, false ) );  ?>
-
-	      </section>
-
 				<section id="platinum" class="content-main content-silestone">
 					<?php $post_id = 287; ?>
 					<?php $post_descr = 'platinum'; ?>
@@ -117,14 +93,6 @@ get_header(); ?>
 				<section id="basiq" class="content-main content-silestone">
 					<?php $post_id = 290; ?>
 					<?php $post_descr = 'basiq'; ?>
-
-						<?php include( locate_template( 'template-parts/content-materials-others.php', false, false ) );  ?>
-
-	      </section>
-
-				<section id="life" class="content-main content-silestone">
-					<?php $post_id = 294; ?>
-					<?php $post_descr = 'life'; ?>
 
 						<?php include( locate_template( 'template-parts/content-materials-others.php', false, false ) );  ?>
 

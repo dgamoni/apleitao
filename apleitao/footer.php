@@ -41,9 +41,22 @@
 	<div class="container container__content">
 		<ul class="contacts__list">
 			<?php
-				if( have_rows('contactos', 610) ):
+			//var_dump(get_the_ID());
 
-						while ( have_rows('contactos', 610) ) : the_row(); ?>
+			if ( ICL_LANGUAGE_CODE == 'pt-pt') {
+				$contact_id = 610;
+			} else if ( ICL_LANGUAGE_CODE == 'en') {
+				$contact_id = 2457;
+			} else if ( ICL_LANGUAGE_CODE == 'es') {
+				$contact_id = 2360;	
+			} else {
+				$contact_id = 610;
+			}
+
+
+				if( have_rows('contactos', $contact_id) ):
+
+						while ( have_rows('contactos', $contact_id) ) : the_row(); ?>
 
 								<li class="contacts__item">
 										<p class="contacts__subtitle"><?php the_sub_field('titulo_do_contactos'); ?></p>
@@ -103,6 +116,8 @@ function scrollFunction() {
 
 
 <?php wp_footer(); ?>
+
+<?php //var_dump(ICL_LANGUAGE_CODE); ?>
 
 </body>
 </html>

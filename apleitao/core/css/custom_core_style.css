@@ -2,3 +2,22 @@
 .page-template-template-homepage .site-header {
     padding-bottom: 45%;
 }
+
+.materiais-lightbox__image-big {
+	height: 400px;
+}
+.materiais-lightbox_wrap {
+	display: flex;
+}
+.lightcase-inlineWrap {
+	overflow: hidden;
+}
+.materiais-lightbox__image-big {
+    margin-right: 4%;
+}
+
+@media screen and (min-width: 0) {
+	html:not([data-lc-type=error]) #lightcase-content .lightcase-contentInner .lightcase-inlineWrap {
+	    padding: 28px;
+	}
+}

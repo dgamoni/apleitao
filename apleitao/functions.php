@@ -153,7 +153,7 @@ function apleitao_scripts() {
 	// wp_enqueue_script( 'apleitao-main', get_template_directory_uri() . '/js/main.js', array('apleitao-plugins'), false, true );
 	wp_enqueue_script( 'apleitao-main', get_template_directory_uri() . '/js/main.js', array('jquery'), false, true );
 
-	wp_enqueue_script( 'apleitao-map', get_template_directory_uri() . '/js/map.js', array(), false, true );
+	//wp_enqueue_script( 'apleitao-map', get_template_directory_uri() . '/js/map.js', array(), false, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

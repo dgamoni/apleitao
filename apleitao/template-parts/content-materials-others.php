@@ -35,40 +35,49 @@
                     $label = $field['choices'][ $value ];
 
                     ?>
-                    <div class="materiais-lightbox__bg materiais-lightbox__bg--<?php echo $value; ?>"></div>
 
-                    <div class="materiais-lightbox__image-big materiais-lightbox__image-big--siles" style="background: url(<?php the_sub_field('main_image'); ?>) no-repeat center center; background-size: cover;">
-                      <!-- <img src="<?php the_sub_field('main_image'); ?>" alt=""> -->
-                    </div>
-                    <div class="materiais-lightbox__close materiais-lightbox__close--others mobile">
-                      <img src="<?php bloginfo('template_directory'); ?>/assets/images/close-lightcase.jpg" alt="Close">
-                    </div>
-                    <div class="materiais-lightbox__info materiais-lightbox__info--siles">
-                      <div class="materiais-lightbox__close materiais-lightbox__close--others desktop">
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/close-lightcase.jpg" alt="Close">
+                      <div class="materiais-lightbox_wrap">
+
+                          <div class="materiais-lightbox__bg materiais-lightbox__bg--<?php echo $value; ?>"></div>
+
+                          <div class="materiais-lightbox__image-big materiais-lightbox__image-big--siles" style="background: url(<?php the_sub_field('main_image'); ?>) no-repeat center center; background-size: cover;">
+                            <!-- <img src="<?php the_sub_field('main_image'); ?>" alt=""> -->
+                          </div>
+
+                          <div class="materiais-lightbox__close materiais-lightbox__close--others mobile">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/close-lightcase.jpg" alt="Close">
+                          </div>
+
+                          <div class="materiais-lightbox__info materiais-lightbox__info--siles">
+                            <div class="materiais-lightbox__close materiais-lightbox__close--others desktop">
+                              <img src="<?php bloginfo('template_directory'); ?>/assets/images/close-lightcase.jpg" alt="Close">
+                            </div>
+
+                            <div class="">
+                              <h5 class="materiais-lightbox__title materiais-lightbox__title--nomargin materiais-lightbox__title--small"><?php the_sub_field('nome_geral'); ?></h5>
+                              <h2 class="materiais-lightbox__title materiais-lightbox__title--nomargin materiais-lightbox__title--big"><?php the_sub_field('nome'); ?></h2>
+                            </div>
+                            <div class="materiais-lightbox__logo">
+                              <?php if ( is_page_template( 'page-templates/template-silestone.php' ) ) : ?>
+
+                                  <img src="<?php bloginfo('template_directory'); ?>/assets/images/silestone-logo2.png" alt="Silestone">
+                              
+                              <?php elseif ( is_page_template( 'page-templates/template-avonite.php' ) ) : ?>
+                              
+                                  <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-avonite2.png" alt="Avonite">
+
+                              <?php else :  ?>
+
+                                  <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-dekton2.png" alt="Dekton">
+                              
+                               <?php endif; ?>
+
+                              <!-- <p>Distribuidor exclusivo em Portugal</p> -->
+                            </div>
+                          </div>
+
                       </div>
-                      <div class="">
-                        <h5 class="materiais-lightbox__title materiais-lightbox__title--nomargin materiais-lightbox__title--small"><?php the_sub_field('nome_geral'); ?></h5>
-                        <h2 class="materiais-lightbox__title materiais-lightbox__title--nomargin materiais-lightbox__title--big"><?php the_sub_field('nome'); ?></h2>
-                      </div>
-                      <div class="materiais-lightbox__logo">
-                        <?php if ( is_page_template( 'page-templates/template-silestone.php' ) ) : ?>
 
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/silestone-logo2.png" alt="Silestone">
-                        
-                        <?php elseif ( is_page_template( 'page-templates/template-avonite.php' ) ) : ?>
-                        
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-avonite2.png" alt="Avonite">
-
-                      <?php else :  ?>
-
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-dekton2.png" alt="Dekton">
-                        
-                      <?php endif; ?>
-
-                        <!-- <p>Distribuidor exclusivo em Portugal</p> -->
-                      </div>
-                    </div>
                   </div>
                 </li>
             <?php endwhile; ?>
