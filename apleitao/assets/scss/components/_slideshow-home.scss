@@ -1,0 +1,97 @@
+.header-slide{
+  @include position(absolute, 0 0 0 0);
+
+
+  &__image{
+    z-index: -1;
+  }
+
+  &__hero{
+    width: 100%;
+    height: 0;
+    padding-bottom: 58%;
+    z-index: 0;
+    overflow: hidden;
+
+    @include breakpoint(laptop){
+      padding-bottom: 38%;
+    }
+  }
+
+
+  &__logo{
+    width: 30%;
+    @include position(absolute, 0 null 0 0);
+    z-index: 2;
+
+    img{
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  &__arrows{
+    @include position(absolute, 47% 0 null 0);
+    width: 100%;
+    height: 30px;
+    z-index: 4;
+
+    .slick-prev{
+      left: 20%;
+    }
+  }
+
+  &__dots{
+    @include position(absolute, null 0 20px 0);
+    width: 100%;
+    height: 30px;
+    z-index: 4;
+  }
+}
+
+.slideshow-home{
+  width: 100%;
+  height: 0;
+  padding-bottom: 58%;
+  // @include position(absolute, 0 0 0 0);
+  z-index: 0;
+  overflow: hidden;
+
+  @include breakpoint(laptop){
+    padding-bottom: 38%;
+  }
+
+
+  &__text{
+    margin-left: 30%;
+    margin-top: 10%;
+    max-width: 400px;
+    font-size: rem(20);
+    line-height: 1;
+    color: #fff;
+    font-family: $font__alternative--light;
+    padding: 0 20px;
+
+
+    @media (max-width: 980px){
+      font-size: rem(26);
+    }
+
+    @media (max-width: 600px){
+      font-size: rem(20);
+    }
+
+
+    @include breakpoint(laptop){
+      font-size: rem(24);
+      line-height: 1.2;
+      margin-left: 50%;
+    }
+
+    @include breakpoint(big-desktop){
+      font-size: rem(26);
+    }
+
+
+  }
+}

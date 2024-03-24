@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+::-moz-selection {
+    background: black;
+    color: white;
+    text-shadow: none;
+}
+
+::selection {
+    background: black;
+    color: white;
+    text-shadow: none;
+}
+
+html,
+body{
+  @include size(100%);
+}
+
+body{
+  font-family: $font__stack--light;
+  font-size: rem(14);
+  box-sizing: border-box;
+  line-height: 1.4;
+
+  @include breakpoint(big-desktop){
+    font-size: rem(17);
+  }
+
+  i, em{
+    font-family: $font__stack--lightitalic;
+  }
+}
+
+img{
+  max-width: 100%;
+}

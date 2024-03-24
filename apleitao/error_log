@@ -1,0 +1,115 @@
+[21-Mar-2018 14:14:37 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:37 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:39 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:40 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:45 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:46 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:47 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:47 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 14:14:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[21-Mar-2018 16:30:36 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[26-Mar-2018 03:56:59 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/apleitao/public_html/wp-content/themes/apleitao/header.php on line 14
+[27-Mar-2018 13:16:14 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/apleitao/public_html/wp-content/themes/apleitao/header.php on line 14
+[07-Apr-2018 09:23:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[07-Apr-2018 09:23:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[09-Apr-2018 10:24:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[09-Apr-2018 10:24:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[11-Apr-2018 05:53:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[11-Apr-2018 05:53:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[06-May-2018 19:31:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[24-Jul-2018 02:31:09 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/apleitao/public_html/wp-content/themes/apleitao/functions.php on line 89
+[24-Jul-2018 02:31:10 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/apleitao/public_html/wp-content/themes/apleitao/functions.php on line 89
+[25-Jul-2018 19:38:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[25-Jul-2018 19:38:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[12-Aug-2018 14:44:23 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/apleitao/public_html/wp-content/themes/apleitao/header.php on line 14
+[12-Aug-2018 14:44:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[12-Aug-2018 14:44:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[12-Aug-2018 14:44:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[12-Aug-2018 14:44:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[12-Aug-2018 14:44:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[12-Aug-2018 14:44:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[22-Aug-2018 08:28:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[22-Aug-2018 08:28:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[22-Aug-2018 08:28:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[22-Aug-2018 08:28:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[22-Aug-2018 08:28:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[22-Aug-2018 08:28:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[22-Aug-2018 08:28:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[22-Aug-2018 08:28:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[23-Aug-2018 20:16:45 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[23-Aug-2018 20:16:45 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[23-Aug-2018 20:16:45 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[23-Aug-2018 20:16:45 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[23-Aug-2018 20:16:46 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/apleitao/public_html/wp-content/themes/apleitao/header.php on line 14
+[23-Aug-2018 20:16:46 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[23-Aug-2018 20:16:46 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[02-Dec-2018 21:43:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[08-Dec-2018 04:46:24 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[08-Dec-2018 04:46:25 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[29-Dec-2018 16:01:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[29-Dec-2018 16:01:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[29-Dec-2018 16:01:43 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/apleitao/public_html/wp-content/themes/apleitao/header.php on line 14
+[29-Dec-2018 16:01:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[29-Dec-2018 16:01:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[29-Dec-2018 16:01:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[29-Dec-2018 16:01:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[29-Dec-2018 16:01:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[29-Dec-2018 16:01:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[04-Jan-2019 14:49:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[04-Jan-2019 14:49:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[04-Jan-2019 14:49:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[04-Jan-2019 14:49:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[04-Jan-2019 22:56:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[04-Jan-2019 22:56:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[04-Jan-2019 22:56:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[04-Jan-2019 22:56:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[04-Jan-2019 22:56:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[04-Jan-2019 22:56:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[04-Jan-2019 22:56:35 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/apleitao/public_html/wp-content/themes/apleitao/header.php on line 14
+[07-Jan-2019 15:21:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[07-Jan-2019 15:21:21 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/apleitao/public_html/wp-content/themes/apleitao/header.php on line 14
+[07-Jan-2019 15:21:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[07-Jan-2019 15:21:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[07-Jan-2019 15:21:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[07-Jan-2019 15:21:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[07-Jan-2019 15:21:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[06-Feb-2019 06:44:13 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/apleitao/public_html/wp-content/themes/apleitao/header.php on line 14
+[06-Feb-2019 06:44:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[06-Feb-2019 06:44:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[06-Feb-2019 06:44:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[06-Feb-2019 06:44:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[06-Feb-2019 06:44:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[06-Feb-2019 06:44:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/index.php on line 15
+[06-Feb-2019 06:44:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/archive.php on line 10
+[06-Feb-2019 06:44:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[16-Nov-2019 05:31:25 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[16-Nov-2019 14:39:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[18-Nov-2019 01:20:39 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[18-Nov-2019 10:28:00 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[13-Dec-2019 07:04:29 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[14-Dec-2019 02:05:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[15-Dec-2019 07:24:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[16-Dec-2019 02:35:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[11-Jan-2020 21:58:28 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[14-Jan-2020 00:35:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[14-Jan-2020 21:35:55 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[16-Jan-2020 01:26:12 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[17-Apr-2020 06:15:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[17-Apr-2020 21:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[25-Apr-2020 01:29:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10
+[25-Apr-2020 16:44:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/apleitao/public_html/wp-content/themes/apleitao/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/apleitao/public_html/wp-content/themes/apleitao/404.php on line 10

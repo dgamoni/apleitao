@@ -1,0 +1,58 @@
+.warehouses{
+  background: $color__language !important;
+  color: #fff;
+
+  &__list{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    @include breakpoint(tablet){
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    }
+  }
+
+  &__item{
+    // display: inline-block;
+    // width: 23%;
+    text-align: left;
+    font-family: $font__title;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+
+    @include breakpoint(tablet){
+      margin-bottom: 0;
+      margin-left: 0;
+    }
+
+    &:before{
+      font-family: 'icomoon';
+        content: "\e902";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: rem(32);
+    }
+  }
+
+  &__title{
+    font-size: rem(17);
+  }
+
+  &__text{
+    font-size: rem(14);
+  }
+}

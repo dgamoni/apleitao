@@ -1,0 +1,59 @@
+/*
+Theme Name: apleitao.
+Theme URI: http://underscores.me/
+Author: Others
+Author URI: http://www.others.pt/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: apleitao
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+apleitao. is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+@charset 'UTF-8';
+
+@import
+  'vendor/reset';
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins',
+  'abstracts/placeholders';
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
+@import
+  'components/lightcase/lightcase';
+@import
+  'components/links',
+  'components/grid',
+  'components/languages',
+  'components/slideshow-home',
+  'components/slick',
+  'components/slick-theme',
+  'components/main-menu',
+  'components/factory',
+  'components/warehouses',
+  'components/maps',
+  'components/infowindow',
+  'components/contacts',
+  'components/forms',
+  'components/materiais',
+  'components/quarries',
+  'components/video-wrap',
+  'components/sidr',
+  'components/menu-secondary',
+  'components/projeto-virtual';
+@import
+  'layout/header',
+  'layout/main-content',
+  'layout/footer';

@@ -1,0 +1,218 @@
+.materiais{
+  width: 100%;
+
+  &__list{
+    padding: 30px;
+
+  }
+
+
+  &__label{
+    text-transform: uppercase;
+  }
+
+  &__item{
+    display: inline-block;
+    width: 100%;
+    margin: 1%;
+
+    @include breakpoint(phablet){
+      width: 47%;
+    }
+
+    @include breakpoint(laptop){
+      width: 31%;
+    }
+  }
+
+  &__text{
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: rem(15);
+    font-family: $font__alternative--medium;
+
+    &--white{
+      color: #fff;
+    }
+  }
+
+  &__image{
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    margin-bottom: 5px;
+  }
+}
+
+.materiais-lightbox{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 410px;
+
+  @include breakpoint(tablet){
+    flex-wrap: nowrap;
+  }
+
+  &__bg{
+    @include position(absolute, 0 0 0 0);
+
+    &--grey3{
+      background-color: $color__bg3;
+    }
+
+    &--grey4{
+      background-color: $color__bg4;
+    }
+
+    &--white{
+      background-color: #fff;
+    }
+  }
+
+  &__image-big{
+    width: 100%;
+    min-height: 200px;
+    margin-right: 2%;
+    align-self: stretch;
+    position: relative;
+
+    @include breakpoint(tablet){
+      flex-wrap: nowrap;
+      min-height: 100%;
+    }
+  }
+
+  &__info{
+    width: 300px;
+    // width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 10px 0;
+
+    &--siles{
+      align-self: stretch;
+      position: relative;
+      display: inline-block;
+      padding-top: 20px;
+
+
+      @include breakpoint(tablet){
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        padding-top: 0;
+      }
+
+      // @media (max-width: 1040px){
+      //   padding-top: 0;
+      // }
+    }
+  }
+
+  &__image{
+    text-align: center;
+        height: 100px;
+  }
+
+  &__logo{
+    font-size: rem(13);
+    text-align: left;
+    margin-top: 30px;
+
+    @include breakpoint(tablet){
+      margin-top: 0;
+    }
+
+    @media (max-width: 1040px){
+      position: relative;
+      right: 0;
+      margin-top: 40px;
+    }
+
+
+  }
+
+  &__info-wrap{
+    margin-bottom: 20px;
+
+  }
+
+  &__title{
+    font-size: rem(19);
+    font-family: $font__alternative--medium;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+
+    &--sub{
+      font-size: rem(15);
+      margin-bottom: 0;
+    }
+
+    &--small{
+      line-height: 1;
+      font-size: rem(19);
+    }
+
+    &--big{
+      line-height: 1;
+      font-size: rem(30);
+      margin-bottom: 30px;
+
+      @include breakpoint(tablet){
+        margin-bottom: 0;
+      }
+    }
+
+    &--nomargin{
+      margin-bottom: 0;
+    }
+  }
+
+  &__text{
+    font-size: rem(10);
+  }
+
+  &__buttons{
+    font-size: rem(10);
+    text-transform: uppercase;
+
+    a{
+      color: $color__copy;
+    }
+  }
+
+
+  &__close{
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+    @include position(absolute, 30px 20px null null);
+
+
+    &--abs{
+      @include position(absolute, 0 0 null null);
+      z-index: 2;
+
+      @include breakpoint(tablet){
+        position: relative;
+      }
+    }
+
+
+    &--others{
+      @include position(absolute, 10px 10px null null);
+      // position: relative;
+
+      @include breakpoint(tablet){
+        top: 0;
+        right: 0;
+        // @include position(absolute, 0 0 null null);
+        position: relative;
+      }
+    }
+  }
+}

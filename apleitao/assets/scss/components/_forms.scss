@@ -1,0 +1,139 @@
+.directions{
+  width: 100%;
+  margin-top: 40px;
+
+  &__wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    @media (max-width: 767px){
+      display: block;
+    }
+  }
+
+  &__input{
+    background-color: #fff;
+    // background-image: url(assets/images/scroll-directions-noarrows.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    border: none;
+    width: 320px;
+    height: 34px;
+    line-height: 34px;
+    font-size: rem(15);
+    outline: none;
+    padding: 10px;
+    vertical-align: top;
+    margin-right: 10px;
+
+    @media (max-width: 767px){
+      display: block;
+      width: 100%;
+      margin: 0 0 20px 0;
+      background-image: url();
+    }
+
+    &--dark{
+      background-color: $color__language;
+      color: #A2A2A2;
+      // background-image: url(assets/images/scroll-directions-noarrows-white.jpg);
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: auto 100%;
+    }
+
+  }
+
+
+  &__select{
+    @extend %clean-field;
+    position: relative;
+    width: 320px;
+    background-color: #fff;
+    background-image: url(assets/images/scroll-directions.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    border: none;
+    border-radius: 0;
+    height: 34px;
+    line-height: 34px;
+    font-size: rem(15);
+    outline: none;
+    padding: 0 10px;
+    color: $color__language;
+    vertical-align: top;
+    margin-left: 10px;
+
+    @media (max-width: 767px){
+      display: block;
+      width: 100%;
+      margin: 0 0 20px 0;
+    }
+
+    option{
+      background: $color__language;
+      color: #fff;
+      margin: 20px 0;
+    }
+
+
+    &--dark{
+      background-color: $color__language;
+      color: #A2A2A2;
+      background-image: url(assets/images/scroll-directions-white.jpg);
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: auto 100%;
+    }
+  }
+
+  &__button{
+    // width: 100%;
+    text-align: center;
+    margin: 0 20px;
+
+
+    @media (max-width: 600px){
+      text-align: left;
+    }
+
+    input{
+      border-radius: 30px;
+      background: #aaa;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+
+  &__submit{
+    @extend %clean-field;
+    background: #fff;
+    font-size: rem(16);
+    color: $color__language;
+    line-height: 34px;
+    padding: 0 20px;
+    display: inline-block;
+    margin: 20px 0;
+    height: 34px;
+    text-transform: uppercase;
+    font-family: $font__stack--bold;
+
+    @media (max-width: 767px){
+      margin: 10px 0;
+    }
+
+    &--dark{
+      background-color: $color__language;
+      color: #A2A2A2;
+    }
+  }
+}
+
+.nice-select:after{
+  display: none;
+}

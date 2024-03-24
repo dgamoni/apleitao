@@ -1,0 +1,125 @@
+.content-main{
+  position: relative;
+  background-color: #fff;
+  // padding-left: 30px;
+  // padding-right: 30px;
+
+
+  &__logos{
+    position: relative;
+    margin-left: 30px;
+    text-align: center;
+
+    @include breakpoint(laptop){
+      @include position(absolute, 0 30px null null);
+      margin-left: 0;
+
+      img{
+        height: 80px;
+        vertical-align: top;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &--padding{
+    padding: 35px 0;
+  }
+
+}
+
+
+.content-pedras:nth-child(1), .content-pedras:nth-child(2n+1){
+  background-color: #fff;
+  color: $color__language;
+  background-image: url(assets/images/bg-solid-dark.png),  url(assets/images/bg-solid-dark.png);
+  background-repeat: no-repeat;
+  background-position: left top, left bottom;
+  background-size: 100% 20%;
+
+  .container__content{
+    background-color: $color__bg2;
+  }
+
+  .title, .text{
+    color: $color__language;
+  }
+
+}
+
+.content-pedras:nth-child(2n){
+  background-color: $color__language;
+  color: #fff;
+
+  .title, .text{
+    color: #fff;
+  }
+
+  .container__content{
+    background-color: none;
+  }
+
+}
+ .content-silestone:nth-child(1),
+ .content-silestone:nth-child(2n+1){
+   background-color: $color__language;
+   color: #fff;
+
+   .title, .text{
+     color: #fff;
+   }
+
+   .container__content{
+     background-color: none;
+   }
+}
+
+.content-silestone:nth-child(2n){
+  background-color: #fff;
+  color: $color__language;
+  background-image: url(assets/images/bg-solid-dark.png),  url(assets/images/bg-solid-dark.png);
+  background-repeat: no-repeat;
+  background-position: left top, left bottom;
+  background-size: 100% 20%;
+
+  .container__content{
+    background-color: $color__bg3;
+  }
+
+  .title, .text{
+    color: $color__language;
+  }
+
+}
+
+.content-dekton:nth-child(1),
+.content-dekton:nth-child(2n+1){
+  background-color: $color__language;
+  color: #fff;
+
+  .title, .text{
+    color: #fff;
+  }
+
+  .container__content{
+    background-color: none;
+  }
+}
+
+.content-dekton:nth-child(2n){
+ background-color: #fff;
+ color: $color__language;
+ background-image: url(assets/images/bg-solid-dark.png),  url(assets/images/bg-solid-dark.png);
+ background-repeat: no-repeat;
+ background-position: left top, left bottom;
+ background-size: 100% 20%;
+
+ .container__content{
+   background-color: $color__bg4;
+ }
+
+ .title, .text{
+   color: $color__language;
+ }
+
+}

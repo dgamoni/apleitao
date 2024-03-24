@@ -1,0 +1,33 @@
+.languages-nav{
+  background: $color__language;
+  padding: 5px 0;
+  position: relative;
+  overflow: hidden;
+  display: block;
+
+  &__list, ul{
+    color: #fff;
+    float: right;
+    font-family: $font__menu;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+    @include breakpoint(laptop){
+      margin-top: 0;
+    }
+  }
+
+  &__item, li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: rem(14);
+
+    @include breakpoint(big-desktop){
+      font-size: rem(15);
+    }
+  }
+
+  a{
+    color: #fff;
+  }
+}

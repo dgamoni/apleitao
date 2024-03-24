@@ -1,0 +1,21 @@
+{
+  "name": "fpg",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nuno Pereira"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

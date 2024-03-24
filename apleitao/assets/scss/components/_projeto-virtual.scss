@@ -1,0 +1,73 @@
+.projetovirtual{
+
+  .content-projeto:nth-child(1){
+   background-color: $color__language;
+   color: #fff;
+
+
+
+   .title, .text{
+     color: #fff;
+   }
+
+  }
+
+  &__container{
+    padding: 0;
+  }
+  .content-projeto:nth-child(2){
+   background-color: #fff;
+   color: $color__language;
+   background-image: url(assets/images/bg-solid-dark.png),  url(assets/images/bg-solid-dark.png);
+   background-repeat: no-repeat;
+   background-position: left top, left bottom;
+   background-size: 100% 20%;
+
+   .container__content{
+     background-color: $color__bg2;
+     width: 100%;
+     max-width: 1000px;
+     margin: 0 auto;
+   }
+
+   .title, .text{
+     color: $color__language;
+   }
+
+  }
+
+  &__img{
+    min-width: 100%;
+  }
+
+  .main{
+    display: block;
+  }
+
+
+  &__images-all{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__arrows{
+    @include position(absolute, 55% 0 null 0);
+    width: 100%;
+    height: 30px;
+    z-index: 0;
+  }
+
+  &__materiais{
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+
+.slide-space1-main, .slide-space2-main{
+
+  @include position(absolute, 0 0 0 0);
+  z-index: 3;
+
+}

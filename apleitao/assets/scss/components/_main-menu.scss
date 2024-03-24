@@ -1,0 +1,145 @@
+.main-navigation{
+  @include position(absolute, 0 0 null 0);
+  z-index: 4;
+  float: right;
+  height: 40px;
+  text-align: right;
+  padding-top: 15px;
+  display: none;
+
+  @include breakpoint(laptop){
+    display: block;
+  }
+
+  @media (max-width: 980px){
+    @include position(absolute, 0 0 0 0);
+    background: #fff;
+  }
+
+
+  .menu-item{
+    display: inline-block;
+    margin: 0 0 0 5px;
+    text-transform: uppercase;
+    font-family: $font__menu;
+    font-size: rem(14);
+    opacity: 0.5;
+
+    @include breakpoint(big-desktop){
+      font-size: rem(16);
+    }
+
+    &.current-page-ancestor{
+      opacity: 1 !important;
+    }
+
+    &.current-menu-item{
+      opacity: 1 !important;
+    }
+
+    &:after{
+      content: ' | ';
+      margin-left: 5px;
+      color: #fff;
+      opacity: 0.5 !important;
+    }
+
+    &:last-child{
+
+
+      &:after{
+        content: '';
+      }
+    }
+
+    @media (max-width: 1400px){
+      font-size: rem(13);
+    }
+
+    @media (max-width: 1210px){
+      font-size: rem(11);
+    }
+
+    @media (max-width: 980px){
+      display: block;
+
+      &:after{
+        content: '';
+      }
+    }
+
+    a{
+      color: #fff;
+    }
+  }
+
+  .current-page-ancestor{
+    opacity: 1 !important;
+  }
+
+
+  .current-menu-item{
+    opacity: 1 !important;
+  }
+}
+
+
+.submenu{
+  width: 100%;
+  margin: 20px 0 30px 0;
+  text-align: center;
+
+  .menu-item{
+    display: inline-block;
+    margin: 0 0 0 5px;
+    text-transform: uppercase;
+    font-family: $font__menu;
+    font-size: rem(16);
+
+    &:after{
+      content: ' | ';
+      margin-left: 5px;
+      color: $color__copy;
+    }
+
+    &:last-child{
+
+
+      &:after{
+        content: '';
+      }
+    }
+
+    @media (max-width: 1400px){
+      font-size: rem(13);
+    }
+
+    @media (max-width: 1210px){
+      font-size: rem(13);
+    }
+
+    @media (max-width: 767px){
+      font-size: rem(13);
+      display: block;
+      margin-bottom: 10px;
+
+      &:after{
+        content: '';
+      }
+    }
+
+    a{
+      color: $color__copy;
+    }
+  }
+}
+
+.secondary-menu{
+
+
+  .menu-item {
+      margin-bottom: 30px;
+
+
+  }
+}

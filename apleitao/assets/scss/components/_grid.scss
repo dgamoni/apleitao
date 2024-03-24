@@ -1,0 +1,80 @@
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  position: relative;
+  overflow: hidden;
+
+  &--menu{
+    width: 100%;
+
+    .text{
+      margin: 0;
+    }
+
+    @include breakpoint(phablet){
+      padding: 0 40px;
+    }
+
+    @include breakpoint(laptop){
+      width: 100%;
+    }
+  }
+
+  &--large{
+    width: 100%;
+    padding: 0;
+
+    @include breakpoint(laptop){
+      width: 82%;
+      padding: 0;
+    }
+  }
+
+  &__content{
+    width: 100%;
+    padding: 35px 0;
+
+
+    @include breakpoint(laptop){
+      width: 78%;
+    }
+
+    @include breakpoint(big-desktop){
+      width: 65%;
+    }
+
+    &--grey{
+      background-color: $color__bg2;
+
+    }
+
+
+    &--margintop1{
+      margin-top: -100px;
+      padding: 35px 0 0 0;
+    }
+
+    &--margintop2{
+      margin-top: -100px;
+      padding: 35px 0 0 0;
+    }
+  }
+
+
+  &--text{
+    width: 100%;
+    padding: 0 20px;
+
+    @include breakpoint(tablet){
+      padding: 40px;
+    }
+
+    @include breakpoint(laptop){
+      width: 47%;
+      padding: 0;
+    }
+
+
+  }
+}

@@ -1,0 +1,34 @@
+#subs-menu{
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  @include breakpoint(tablet){
+    display: block;
+  }
+}
+
+.menu-button{
+  display: block;
+  width: 100%;
+  background: $color__language;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+
+  @include breakpoint(tablet){
+    display: none;
+  }
+
+  &:after{
+    content: url(assets/images/responsive-menu-small.png);
+    width: 20px;
+    height: auto;
+    @include position(absolute, 10px 20px null null);
+  }
+}

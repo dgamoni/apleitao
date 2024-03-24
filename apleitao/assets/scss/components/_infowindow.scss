@@ -1,0 +1,168 @@
+
+.demo {
+  padding: 10px 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#button1:checked ~ .slides .slides-wrap,
+#button3:checked ~ .slides .slides-wrap,
+#button5:checked ~ .slides .slides-wrap,
+#button7:checked ~ .slides .slides-wrap {
+  margin-left: 0;
+  transform: translateX(0);
+}
+#button1:checked ~ .dots-slide label:nth-child(1),
+#button3:checked ~ .dots-slide label:nth-child(1),
+#button5:checked ~ .dots-slide label:nth-child(1),
+#button7:checked ~ .dots-slide label:nth-child(1) {
+  opacity: 1;
+}
+
+#button2:checked ~ .slides .slides-wrap,
+#button4:checked ~ .slides .slides-wrap,
+#button6:checked ~ .slides .slides-wrap,
+#button8:checked ~ .slides .slides-wrap  {
+  transform: translateX(-25%);
+}
+#button2:checked ~ .dots-slide label:nth-child(2),
+#button4:checked ~ .dots-slide label:nth-child(2),
+#button6:checked ~ .dots-slide label:nth-child(2),
+#button8:checked ~ .dots-slide label:nth-child(2) {
+  opacity: 1;
+}
+
+// #button3:checked ~ .slides .slides-wrap {
+//   transform: translateX(-50%);
+// }
+// #button3:checked ~ .dots-slide label:nth-child(3) {
+//   opacity: 1;
+// }
+//
+// #button4:checked ~ .slides .slides-wrap {
+//   transform: translateX(-75%);
+// }
+// #button4:checked ~ .dots-slide label:nth-child(4) {
+//   opacity: 1;
+// }
+
+
+.slides {
+  overflow: hidden;
+  // background: black;
+}
+
+.slides-wrap {
+  margin: 0;
+  padding: 0;
+  width: 400%;
+  max-height: 380px;
+  overflow: hidden;
+  list-style-type: none;
+  /*   animation: slideshow 25s infinite; */
+  transition: all .3s ease-out;
+  position: relative;
+}
+
+.slide {
+  position: relative;
+  width: calc(100% / 4);
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.slide img {
+  vertical-align: bottom;
+  width: 100%;
+}
+
+.dots-slide {
+  width: 70px;
+  margin: 20px 0 5px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  left: calc(50% - 35px);
+  z-index: 2;
+}
+.dots-slide label {
+  display: inline-block;
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  background: #fff;
+  opacity: 0.5;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .1s ease-out;
+}
+.dots-slide label:last-child {
+  margin-right: 0;
+  margin-left: 2px;
+}
+
+// .title {
+//   font-family: 'Open Sans', sans-serif;
+//   font-weight: 300;
+//   text-transform: uppercase;
+//   letter-spacing: 7px;
+//   font-size: 32px;
+//   text-align: center;
+// }
+
+/* Auto Play
+* Buttons don't work when this is on though....
+*/
+@keyframes slideshow {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-25%);
+  }
+  45% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  70% {
+    transform: translateX(-50%);
+  }
+  75% {
+    transform: translateX(-75%);
+  }
+  95% {
+    transform: translateX(-75%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.info_content{
+  text-align: left;
+
+  &__title{
+    font-family: $font__alternative--medium;
+    font-size: rem(23);
+    text-transform: uppercase;
+
+    span{
+      font-size: rem(28);
+    }
+  }
+
+  &__text{
+    font-family: $font__stack--light;
+    font-size: rem(14);
+    line-height: 1.3;
+    margin: 10px 0 20px 0;
+  }
+}

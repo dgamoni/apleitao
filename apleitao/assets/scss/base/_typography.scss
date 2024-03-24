@@ -1,0 +1,40 @@
+.title{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: rem(26);
+  font-family: $font__title;
+  margin-bottom: 30px;
+  color: $color__copy;
+
+  @include breakpoint(big-desktop){
+    font-size: rem(32);
+  }
+
+  @media (max-width: 768px){
+    font-size: rem(18);
+  }
+
+
+  &--white{
+    color: #fff;
+  }
+
+  &--main{
+    margin-bottom: 10px;
+  }
+}
+
+.text{
+  font-family: $font__text;
+  color: $color__copy;
+  text-align: justify;
+
+
+  @media (max-width: 768px){
+    text-align: left;
+  }
+
+  &--white{
+    color: #fff;
+  }
+}
